@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #171718, #020f1f);
+}
+
+
+    
+
+.container {
+    backdrop-filter: blur(45px);
+    background: rgba(157, 130, 130, 0.08);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px ;
+}
+
+.calculator {
+    width: 350px;
+}
+
+.display {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 2rem;
+    background: rgba(255,255,255,0.25);
+    color: #fff;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    height: 55px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+    background: rgba(255,255,255,0.25);
+}
+
+.clear {
+    background: #ff3b3b;
+}
+.clear:hover {
+    background: #ff5757;
+}
+
+.plus {
+    background: #0ea5e9;
+}
+.plus:hover {
+    background: #38bdf8;
+}
+
+.equal {
+    background: #16a34a;
+}
+.equal:hover {
+    background: #22c55e;
+}
+
+.zero {
+    grid-column: span 2;
+}
