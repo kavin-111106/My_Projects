@@ -12,7 +12,12 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #171718, #020f1f);
 }
-
+.page-title {
+    position: absolute;
+    top: 20px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 600;}
 
     
 
@@ -78,10 +83,10 @@ body {
 }
 
 .equal {
-    background: #16a34a;
+    background: blueviolet;
 }
 .equal:hover {
-    background: #22c55e;
+    background: blueviolet;
 }
 
 .zero {
